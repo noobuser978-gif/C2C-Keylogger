@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = FastAPI()
 
-# Allow your HTML dashboard to connect (if you add one later)
+# Allow  HTML dashboard to connect (if add one later)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- Your simple in-memory data ---
+# --- simple in-memory data ---
 logs = []
 pending_commands = {}
 clients = {}
@@ -32,7 +32,7 @@ async def receive_log(request: Request):
     log_message = data.get("log")
     if client_id and log_message:
         logs.append({"id": client_id, "log": log_message})
-        clients[client_id] = {"last_seen": datetime.now()}  # You can use datetime.now() for actual timestamp
+        clients[client_id] = {"last_seen": datetime.now()}  
         return {"status": "ok"}
     else:
         return {"status": "error", "message": "Missing id or log"}
