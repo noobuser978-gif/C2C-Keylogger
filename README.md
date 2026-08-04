@@ -52,7 +52,7 @@ You can send any command that works on the target OS:
  - Linux: ifconfig, ls, whoami
 
 ## 📜 License
-MIT License – see the LICENSE file for details.
+[MIT](https://github.com/noobuser978-gif/C2C-Keylogger/blob/main/LICENSE) – see the LICENSE file for details.
 
 ## ⚠️ Disclaimer
 This project is strictly for educational purposes and authorized penetration testing only.
