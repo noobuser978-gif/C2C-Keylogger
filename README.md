@@ -24,3 +24,13 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
    git clone https://github.com/noobuser978-gif/C2C-Keylogger
    cd C2C-Keylogger
    ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+## ▶️ Running the Server
+- Start the FastAPI server (keep this terminal open):
+  ```bash
+  uvicorn server:app --reload
+  ```
+  
