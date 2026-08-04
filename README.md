@@ -39,6 +39,6 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
    ```bash
    python keylogger.py        # or python3 on Linux
    ```
-   💡 On Windows, you can hide the console by renaming the file to keylogger.pyw and running pythonw keylogger.pyw.
+💡 On Windows, you can hide the console by renaming the file to keylogger.pyw and running pythonw keylogger.pyw.
 - The client will print its unique client ID – make a note of it (e.g., a1b2c3d4).
   
