@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+pynput
+pygetwindow; sys_platform == 'win32'
+pywinctl; sys_platform == 'linux'
