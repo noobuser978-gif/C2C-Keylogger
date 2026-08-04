@@ -14,13 +14,13 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
 
   ## 📌 Why This Project?
 
-This project demonstrates core C2 concepts:
+  This project demonstrates core C2 concepts:
 - HTTP‑based communication (polling)
 - Remote command execution
 - Real‑time log streaming
 - Cross‑platform compatibility (Windows & Linux)
 
-It's an ideal starting point for learning malware development, network security, and ethical hacking.
+  It's an ideal starting point for learning malware development, network security, and ethical hacking.
 
 ## 📦 Tech Stack
 - **Backend:** FastAPI, Uvicorn
