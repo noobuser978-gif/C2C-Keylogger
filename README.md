@@ -29,8 +29,16 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
    pip install -r requirements.txt
    ```
 ## ▶️ Running the Server
-- Start the FastAPI server (keep this terminal open):
+ - Start the FastAPI server (keep this terminal open):
   ```bash
   uvicorn server:app --reload
   ```
+ - The server will run at http://localhost:8000.
+## 💻 Running the Client (Target Machine)
+ - On the machine you want to monitor, run:
+   ```bash
+   python keylogger.py        # or python3 on Linux
+   ```
+       💡 On Windows, you can hide the console by renaming the file to keylogger.pyw and running pythonw keylogger.pyw.
+   - The client will print its unique client ID – make a note of it (e.g., a1b2c3d4).
   
