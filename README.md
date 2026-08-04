@@ -12,6 +12,16 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
 - ✅ Admin endpoint to inject commands (`/admin/add`)
 - ✅ In-memory storage (easy to restart)
 
+  ## 📌 Why This Project?
+
+This project demonstrates core C2 concepts:
+- HTTP‑based communication (polling)
+- Remote command execution
+- Real‑time log streaming
+- Cross‑platform compatibility (Windows & Linux)
+
+It's an ideal starting point for learning malware development, network security, and ethical hacking.
+
 ## 📦 Tech Stack
 - **Backend:** FastAPI, Uvicorn
 - **Client:** `pynput`, `requests`, `subprocess`
@@ -52,7 +62,7 @@ You can send any command that works on the target OS:
  - Linux: ifconfig, ls, whoami
 
 ## 📜 License
-[MIT](https://github.com/noobuser978-gif/C2C-Keylogger/blob/main/LICENSE) – see the LICENSE file for details.
+[MIT License](https://github.com/noobuser978-gif/C2C-Keylogger/blob/main/LICENSE) – see the LICENSE file for details.
 
 ## ⚠️ Disclaimer
 This project is strictly for educational purposes and authorized penetration testing only.
