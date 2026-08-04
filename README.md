@@ -50,9 +50,10 @@ Wait 10 seconds – the command output will appear in the server terminal.
 You can send any command that works on the target OS:
  - Windows: ipconfig, dir, whoami
  - Linux: ifconfig, ls, whoami
-##📜 License
-MIT License – see the LICENSE file for details.
-## ⚠️ Disclaimer
 
+## 📜 License
+MIT License – see the LICENSE file for details.
+
+## ⚠️ Disclaimer
 This project is strictly for educational purposes and authorized penetration testing only.
 Do not use it on any system without explicit permission. The author is not responsible for any misuse.
