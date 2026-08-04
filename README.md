@@ -1,4 +1,4 @@
-# C2 Command & Control Framework (Educational)
+# C2 Command & Control Keylogger Framework (Educational)
 
 A lightweight, cross-platform Command & Control (C2) system built with Python and FastAPI.  
 The client (keylogger) sends keystrokes to the server and polls for remote commands.  
@@ -21,5 +21,6 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-   cd REPO_NAME
+   git clone https://github.com/noobuser978-gif/C2C-Keylogger
+   cd C2C-Keylogger
+   ```
