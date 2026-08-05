@@ -32,7 +32,7 @@ The client (keylogger) sends keystrokes to the server and polls for remote comma
 1. Clone the repo:
    ```bash
    git clone https://github.com/noobuser978-gif/C2C-Keylogger
-   cd C2C-Keylogger
+   cd C2-Keylogger
    ```
 2. Install dependencies:
    ```bash
